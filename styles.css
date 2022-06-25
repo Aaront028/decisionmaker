@@ -1,0 +1,19 @@
+body {
+  background-color: aquamarine;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.field {
+  padding: 25px;
+}
+
+.hidden {
+  display: none;
+}
