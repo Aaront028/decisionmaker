@@ -10,18 +10,16 @@ document.querySelector('.tired').addEventListener('click', function () {
   })
 })
 
-if (notTired) {
-  document.querySelector('.notTired').addEventListener('click', function () {
-    let hideBlock = document.querySelector('.hidden')
+document.querySelector('.notTired').addEventListener('click', function () {
+  let hideBlock = document.querySelector('.hidden')
 
-    if (hideBlock) {
-      document.querySelector('.hidden').classList.remove('hidden')
-      document.querySelector('.decide').addEventListener('click', function () {
-        let choice1 = document.querySelector('.choice1').valuehidden
-        let choice2 = document.querySelector('.choice2').value
-        let result = choice === 1 ? choice1 : choice2
-        document.querySelector('.outcomeAnswer').textContent = result
-      })
-    }
-  })
-}
+  if (hideBlock) {
+    document.querySelector('.hidden').classList.remove('hidden')
+    document.querySelector('.decide').addEventListener('click', function () {
+      let choice1 = document.querySelector('.choice1').valuehidden
+      let choice2 = document.querySelector('.choice2').value
+      let result = choice === 1 ? choice1 : choice2
+      document.querySelector('.outcomeAnswer').textContent = result
+    })
+  }
+})
