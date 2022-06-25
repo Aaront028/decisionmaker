@@ -1,5 +1,11 @@
+
+
 body {
-  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #C2DED1;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -8,6 +14,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #CDC2AE;
+  border-radius: 5px;
+  box-shadow: 5px 8px #888888
+}
+
+h1 {
+  padding: 20px;
+  color: #354259;
 }
 
 .field {
@@ -16,4 +30,11 @@ body {
 
 .hidden {
   display: none;
+}
+
+.block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

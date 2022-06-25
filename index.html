@@ -13,7 +13,7 @@
 <body>
   <div class="main-container">
   <h1>Decision Maker</h1>
-  <fieldset>
+  <fieldset class="field">
     <legend>Are you tired?</legend>
     <input type="radio" class="tired" id="Tired" name="istired">
     <label for="Tired">Tired</label>
@@ -24,10 +24,14 @@
 
 
   <div class="block hidden">
-    <input type="text" class="choice1">
-    <input type="text" class="choice2">
+    <p>Would you rather do</p>
+    <input type="text" class="choice1" placeholder="e.g watch netflix">
+    <p>Or...</p>
+    <input type="text" class="choice2" placeholder="e.g study">
+    <br>
     <button class="decide">Decide</button>
   </div>
+
 
   <p class="outcome">You should:<span class="outcomeAnswer"></span></p>
 </div>
