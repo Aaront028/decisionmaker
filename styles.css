@@ -1,4 +1,6 @@
-
+/* * {
+  border: 1px solid red;
+} */
 
 body {
   display: flex;
@@ -20,17 +22,30 @@ body {
 }
 
 h1 {
-  padding: 20px;
+  padding: 20px 15px 10px 15px;
   color: #354259;
 }
 
 .field {
+  display: flex;
+  flex-direction: column;
   padding: 25px;
   border-radius: 5px;
 }
 
+.send {
+  margin-top: 20px;
+  align-self: center;
+}
+
 .hidden {
   display: none;
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid #354259;
+  background-color: #ECE5C7;
 }
 
 .block{
