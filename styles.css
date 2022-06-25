@@ -21,7 +21,7 @@ body {
   box-shadow: 5px 8px #888888
 }
 
-h1 {
+h1, h3 {
   padding: 20px 15px 10px 15px;
   color: #354259;
 }
@@ -46,6 +46,16 @@ button {
   border-radius: 5px;
   border: 1px solid #354259;
   background-color: #ECE5C7;
+}
+
+button:hover {
+  border: 1px solid #ECE5C7;
+  background-color: #354259;
+  color: white;
+}
+
+.reset {
+  margin: 5px;
 }
 
 .block{

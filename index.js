@@ -3,6 +3,8 @@ let isTired = document.querySelector('.tired').value
 let notTired = document.querySelector('.notTired').value
 
 document.querySelector('.tired').addEventListener('click', function () {
+  document.querySelector('.choice1').value = ''
+  document.querySelector('.choice2').value = ''
   if (isTired) {
     document.querySelector('.outcomeAnswer').textContent = ''
     document.querySelector('.decide').addEventListener('click', function () {
@@ -24,17 +26,8 @@ document.querySelector('.notTired').addEventListener('click', function () {
   }
 })
 
-// let isTired = document.querySelector('.tired').value
-// let notTired = document.querySelector('.notTired').value
-// let choice = Math.floor(Math.random() * 2) + 1
-// let blockChoice = document.querySelector('.hidden')
-// blockChoice.classList.add('hidden')
-// if (notTired === true) {
-//   if (choice === 1) {
-//     blockChoice.classList.remove('hidden')
-//   } else {
-//     console.log('watch The Boys')
-//   }
-// } else {
-//   console.log('study')
-// }
+document.querySelector('.reset').addEventListener('click', function () {
+  document.querySelector('.outcomeAnswer').textContent = ''
+  document.querySelector('.choice1').value = ''
+  document.querySelector('.choice2').value = ''
+})
