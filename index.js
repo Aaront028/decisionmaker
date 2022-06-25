@@ -6,7 +6,7 @@ let hideBlock = document.querySelector('.hidden')
 document.querySelector('.tired').addEventListener('click', function () {
   document.querySelector('.block').classList.add('hidden')
   document.querySelector('.send').addEventListener('click', function () {
-    document.querySelector('.outcomeAnswer').textContent = 'Sleep'
+    document.querySelector('.outcomeAnswer').textContent = 'go to sleep'
   })
 })
 

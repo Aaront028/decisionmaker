@@ -26,6 +26,7 @@ h1 {
 
 .field {
   padding: 25px;
+  border-radius: 5px;
 }
 
 .hidden {
